@@ -1,20 +1,10 @@
-# Root
-.env
-.DS_Store
-*.log
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Node modules - both client and server
+# Dependencies
+node_modules/
 client/node_modules/
 server/node_modules/
 
 # Environment variables
+.env
 client/.env
 server/.env
 
@@ -26,39 +16,43 @@ client/build/
 server/dist/
 server/build/
 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Coverage reports
 coverage/
 client/coverage/
 server/coverage/
 
 # OS/System files
-Thumbs.db
 .DS_Store
+Thumbs.db
 
-# IDEs/Editors
+# Editor directories and files
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
 
-# Optional: Mac/Linux swap or temp files
+# Temporary and backup files
 *.swp
 *.swo
 *.tmp
 *.bak
-
-# Optional: Logs or temp debug files
-*.log
 *.tgz
 *.gz
 *.zip
 
-# Optional: Local db or test data
+# Database files
 *.sqlite
 *.sqlite3
 *.db
 *.db-journal
 *.local
 
-# Optional: Test snapshots
+# Test snapshots
 __snapshots__/
